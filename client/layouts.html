@@ -1,5 +1,7 @@
 <template name="mainLayout">
-  {{> header}}
+ 
+    {{> navbar}}
+   {{> header}}
 
   {{#if currentUser}}
     {{#if notVerified}}
@@ -16,10 +18,17 @@
   {{/if}}
 
   <div id="log"></div>
+
+  {{> footer}}
+
 </template>
 
 <template name="noHeaderLayout">
+
+  {{> navbar}}
+  <br/><br/><br/><br/><br/><br/>
   {{> Template.dynamic template=content}}
 
   <div id="log"></div>
+  {{> footer}}
 </template>
