@@ -4136,10 +4136,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
 }
 .nav-pills > li > a {
-  border-radius: 0px;
+  border-radius: 4px;
 }
 .nav-pills > li + li {
-  margin-left: 0px;
+  margin-left: 2px;
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,

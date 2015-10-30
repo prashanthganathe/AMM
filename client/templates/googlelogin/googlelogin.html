@@ -1,0 +1,10 @@
+<template name="googlelogin">
+    {{#if currentUser}}       
+        <button id="logout">Logout</button>
+    {{else}}
+        <!-- <button id="facebook-login" class="btn btn-default"> Login with Facebook</button> -->
+
+        <a href="#" id="google-login" class="btn azm-social  azm-facebook" style="font-family: 'Open Sans', sans-serif;">
+        <i class="fa fa-google-plus"></i> Log in with Google+</a>
+    {{/if}}
+</template>
